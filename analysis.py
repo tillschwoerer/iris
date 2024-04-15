@@ -6,3 +6,7 @@ df = sns.load_dataset('iris')
 df.head()
 df.describe()
 df.tail()
+
+# EDA
+df.species.value_counts()
+df.groupby('species').sepal_length.mean()

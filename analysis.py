@@ -20,3 +20,8 @@ sns.scatterplot(
     data=df,
     x="sepal_length",
     y="sepal_width")
+
+sns.scatterplot(
+    data=df,
+    x="petal_length",
+    y="petal_width")

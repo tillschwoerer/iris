@@ -5,3 +5,4 @@ df = sns.load_dataset('iris')
 
 df.head()
 df.describe()
+df.tail()

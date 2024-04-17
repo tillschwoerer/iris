@@ -3,9 +3,9 @@ import seaborn as sns
 
 df = sns.load_dataset('iris')
 
-df.head()
+df.head(3)
 df.describe()
-df.tail()
+df.tail(3)
 
 # EDA
 df.species.value_counts()

@@ -1,0 +1,13 @@
+# All Excel files
+*.xlx
+*.xlsx
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Sensitive Data stored in .env file
+.env
+
+# Python Virtual Environment
+.venv/
+
